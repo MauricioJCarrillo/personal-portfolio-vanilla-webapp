@@ -1,4 +1,5 @@
 :root {
+  --primary-color: #61a6fa;
   --light: #f5f7fa;
   --dark: #4b5563;
   --font-family: "Inter", sans-serif;
@@ -13,4 +14,53 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-family);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 5% 5%;
+  height: 100vh;
+  background-color: #202934;
+}
+
+.hero-container {
+  max-width: 768px;
+  text-align: center;
+}
+
+.hero-container h1 {
+  font-size: 7.2rem;
+  margin-bottom: 16px;
+  color: var(--light);
+}
+
+.hero-container span {
+  font-size: 7.2rem;
+  color: var(--primary-color);
+}
+
+.hero-container p {
+  max-width: 672px;
+  font-size: 2.4rem;
+  margin-bottom: 32px;
+  color: #96a3b4;
+}
+
+.hero-container div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  padding: 10px 25px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  background-color: var(--primary-color);
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 5px;
 }

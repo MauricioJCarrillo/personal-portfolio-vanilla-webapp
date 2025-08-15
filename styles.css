@@ -70,3 +70,22 @@ html {
   color: var(--light);
   background-color: #3d4d61;
 }
+
+.section-title {
+  margin-bottom: 6.4rem;
+}
+
+/* Title in sections */
+.section-title h2 {
+  margin-bottom: 16px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: -0.09rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.skills-section {
+  padding: 5%;
+}

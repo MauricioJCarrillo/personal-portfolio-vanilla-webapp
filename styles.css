@@ -48,13 +48,9 @@ html {
   color: #96a3b4;
 }
 
-.hero-container div {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-
 .btn {
+  display: inline-block;
+  margin-right: 10px;
   padding: 10px 25px;
   font-size: 1.8rem;
   font-weight: 500;
@@ -146,4 +142,30 @@ html {
 .skill-card p {
   font-size: 1.4rem;
   color: var(--dark);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 5%;
+  }
+
+  .hero-container h1 {
+    font-size: 4.8rem;
+  }
+
+  .hero-container span {
+    font-size: 4.8rem;
+  }
+
+  .hero-container p {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    display: block;
+    width: 280px;
+    margin: 16px auto;
+    font-size: 1.6rem;
+  }
 }

@@ -90,3 +90,60 @@ html {
 .skills-section {
   padding: 5%;
 }
+
+.skills-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  height: auto;
+  gap: 3rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.skill-category {
+  width: 45%;
+  min-width: 280px;
+}
+
+.skill-category h2 {
+  margin-bottom: 3.2rem;
+  font-size: 3.2rem;
+  color: var(--dark);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 125px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+}
+
+.skill-card img {
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 1.4rem;
+  color: var(--dark);
+}

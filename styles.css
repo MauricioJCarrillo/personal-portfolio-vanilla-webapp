@@ -82,6 +82,7 @@ html {
 /* Skills section */
 .skills-section {
   padding: 5%;
+  background-color: #f4f4f4;
 }
 
 .skills-container {
@@ -127,6 +128,7 @@ html {
   height: 125px;
   padding: 10px;
   font-weight: 500;
+  background-color: var(--light);
   border-radius: 10px;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease;

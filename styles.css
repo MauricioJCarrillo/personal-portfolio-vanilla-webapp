@@ -269,6 +269,30 @@ html {
   border-radius: 25px;
 }
 
+/* Call to action section */
+.call-to-action-section {
+  padding: 5%;
+  background-color: #202934;
+}
+
+.call-to-action-container {
+  text-align: center;
+}
+
+.call-to-action-container h2 {
+  margin-bottom: 16px;
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.call-to-action-container p {
+  margin: 0 auto 32px;
+  max-width: 672px;
+  font-size: 2.4rem;
+  color: #96a3b4;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .hero-section {
@@ -339,5 +363,17 @@ html {
   .experience-card {
     width: 100%;
     margin-left: 50px;
+  }
+
+  .call-to-action-section {
+    padding: 96px 5%;
+  }
+
+  .call-to-action-container h2 {
+    font-size: 4rem;
+  }
+
+  .call-to-action-container p {
+    font-size: 1.8rem;
   }
 }

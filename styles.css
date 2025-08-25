@@ -61,6 +61,11 @@ html {
   transition: all 0.3s;
 }
 
+.btn img {
+  margin: 0 6px;
+  vertical-align: bottom;
+}
+
 .btn:hover {
   transform: translateY(-3px);
   color: var(--light);

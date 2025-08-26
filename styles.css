@@ -30,6 +30,13 @@ html {
   text-align: center;
 }
 
+.hero-image {
+  margin-bottom: 32px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 2px var(--light);
+}
+
 .hero-container h1 {
   font-size: 7.2rem;
   margin-bottom: 16px;
@@ -321,6 +328,10 @@ footer {
 @media (max-width: 768px) {
   .hero-section {
     padding: 5%;
+  }
+
+  .hero-image {
+    width: 200px;
   }
 
   .hero-container h1 {

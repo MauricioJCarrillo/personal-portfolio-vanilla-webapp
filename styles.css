@@ -305,6 +305,16 @@ html {
   color: #96a3b4;
 }
 
+/* Projects section */
+.project-section {
+  padding: 5%;
+}
+
+.project-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 /* Footer section*/
 footer {
   background-color: #202934;

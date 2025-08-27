@@ -315,6 +315,67 @@ html {
   margin: 0 auto;
 }
 
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3rem;
+}
+
+.project-card {
+  max-width: 350px;
+  padding: 20px;
+  background-color: var(--light);
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.project-title {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.project-description {
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--dark);
+}
+
+.technologies-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.demo-btn,
+.github-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  padding: 8px 15px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(127, 190, 235, 0.521);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.demo-btn img,
+.github-btn img {
+  width: 20px;
+  margin: 0 6px;
+}
+
 /* Footer section*/
 footer {
   background-color: #202934;

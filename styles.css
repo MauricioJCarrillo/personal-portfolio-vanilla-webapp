@@ -91,6 +91,29 @@ html {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* About section */
+.about-section {
+  padding: 5%;
+}
+
+.about-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.about-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: center;
+  color: var(--dark);
+}
+
 /* Skills section */
 .skills-section {
   padding: 5%;
@@ -140,7 +163,7 @@ html {
   height: 125px;
   padding: 10px;
   font-weight: 500;
-  background-color: var(--light);
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease;
@@ -159,33 +182,9 @@ html {
   color: var(--dark);
 }
 
-/* About section */
-.about-section {
-  padding: 5%;
-}
-
-.about-container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.about-content {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.about-content p {
-  margin-bottom: 16px;
-  font-size: 1.8rem;
-  line-height: 3rem;
-  text-align: center;
-  color: var(--dark);
-}
-
 /* Experience section */
 .experience-section {
   padding: 5%;
-  background-color: #f4f4f4;
 }
 
 .experience-container {
@@ -281,33 +280,10 @@ html {
   border-radius: 25px;
 }
 
-/* Call to action section */
-.call-to-action-section {
-  padding: 5%;
-  background-color: #202934;
-}
-
-.call-to-action-container {
-  text-align: center;
-}
-
-.call-to-action-container h2 {
-  margin-bottom: 16px;
-  font-size: 5rem;
-  font-weight: 700;
-  color: var(--primary-color);
-}
-
-.call-to-action-container p {
-  margin: 0 auto 32px;
-  max-width: 672px;
-  font-size: 2.4rem;
-  color: #96a3b4;
-}
-
 /* Projects section */
 .project-section {
   padding: 5%;
+  background-color: #f4f4f4;
 }
 
 .project-container {
@@ -395,6 +371,30 @@ html {
 .github-btn img {
   width: 20px;
   margin: 0 6px;
+}
+
+/* Call to action section */
+.call-to-action-section {
+  padding: 5%;
+  background-color: #202934;
+}
+
+.call-to-action-container {
+  text-align: center;
+}
+
+.call-to-action-container h2 {
+  margin-bottom: 16px;
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.call-to-action-container p {
+  margin: 0 auto 32px;
+  max-width: 672px;
+  font-size: 2.4rem;
+  color: #96a3b4;
 }
 
 /* Footer section*/
@@ -490,6 +490,10 @@ footer {
   .experience-card {
     width: 100%;
     margin-left: 50px;
+  }
+
+  .project-section {
+    padding: 96px 5%;
   }
 
   .call-to-action-section {
